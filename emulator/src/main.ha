@@ -37,8 +37,6 @@ export fn main() void = {
 		fmt::fatalf("Failed to check opcode size");
 	};
 
-	// And print the opcode (2 bytes).
-	for (let i = 0z; i < code_size - 1; i += 2) {
-		fmt::printfln("opcode> {0:.2x}{1:.2x}", code[i], code[i + 1])!;
-	};
+	emulate(code[..code_size]);
+
 };
