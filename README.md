@@ -10,9 +10,12 @@ So let's start...
 ## Steps
 
 - [x] link a C library with Hare code. Start with simple `hello`
-  - [Hello step](https://github.com/gthvn1/hare_playground/tree/master/hello)
+  - [hello/](https://github.com/gthvn1/hare_playground/tree/master/hello)
 - [x] link with raylib and create a window
   - porting *core_basic_window.c* from [Raylib examples](https://www.raylib.com/examples.html) to Hare to validate that it works.
-  - [Raylib step](https://github.com/gthvn1/hare_playground/tree/master/raylib)
+  - [raylib/](https://github.com/gthvn1/hare_playground/tree/master/raylib)
 - [ ] start implementing the emulator
-- ... (will see for next steps)
+  - [emulator/](https://github.com/gthvn1/hare_playground/tree/master/emulator)
+  - [] read chip8 binaries from ROM and dump instructions
+  - [] execute some instructions to run ibm logo
+  - [] implement other instructions
