@@ -7,7 +7,7 @@ echo "Pass 'b' to build or 'r' to run the code"
 
 case $1 in
   b) CMD="hare build -o chip8emu src" ;;
-  r) CMD="hare run src" ;;
+  r) CMD="hare run src ../roms/IBM_logo.ch8" ;;
   *) CMD="hare test src"  ;;
 esac
 
